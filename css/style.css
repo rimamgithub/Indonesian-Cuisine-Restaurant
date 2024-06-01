@@ -1,0 +1,334 @@
+@font-face {
+    font-family: Madimi One;
+    src: url(../font/madimi/MadimiOne-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --light_green: rgb(5, 123, 3);
+    --dark_green: rgb(4, 73, 3 );
+    --light_yellow: rgb(246, 246, 11 );
+    --orange: rgb(250, 152, 3);
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.jc_between{
+    justify-content: space-between;
+}
+.jc_center{
+    justify-content: center;
+}
+.jc_end{
+    justify-content: flex-end;
+}
+.jc_start{
+    justify-content: flex-start;
+}
+.wrapper{
+    padding: 30px 100px;
+}
+.nav_wrapper{
+    padding: 10px 100px;
+}
+ul{
+    list-style: none;
+}
+/* navbar */
+nav{
+    background-color: var(--dark_green);
+}
+.logo_part{
+    border-radius: 50%;
+}
+.logo_img{
+    width: 100px;
+    height: 70px;
+}
+.nav_list{
+    gap: 10px;
+}
+.nav_list li{
+    padding: 5px;
+    color: white;
+}
+.nav_list li a{
+    color: white;
+}
+.nav_list li:hover{
+    border-bottom: 2px solid white;
+}
+.s-icon{
+    color: white;
+}
+/* banner */
+.banner{
+    height: 100vh;
+    background-image: url(../images/Indonesian\ cuisine\ \ food\ banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.banner_text{
+    color: white;
+    margin-top: 150px;
+}
+.banner_text h3{
+    font-family: 'Madimi One',sans-serif;
+    padding-left: 50px;
+    font-size: 25px;
+    font-weight:10px ;
+}
+.banner_text h1{
+    font-family: 'Madimi One',sans-serif;
+    font-size: 50px;
+    padding-left: 10px;
+}
+.banner_text p{
+    padding: 15px 0;
+    padding-left: 5px;
+}
+.banner_but{
+    padding: 10px 0;
+}
+.banner_but button{
+    border: 2px solid var(--light_yellow);
+    border-radius: 15px;
+    width: 10%;
+    height: 30px;
+    background-color: var(--light_yellow);
+    color: green;
+    font-weight: bold;
+}
+/* about */
+.about{
+    width: 100%;
+    height: 500px;
+    background-color: var(--light_yellow);
+}
+
+.aboutImg{
+    width: 50%; 
+}
+.aboutText{
+    width: 50%;
+    margin-left: 100px;
+    
+}
+.aboutText h1{
+    font-family: 'Madimi One',sans-serif;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.aboutText h3{
+    padding-bottom: 10px;
+}
+.aboutText p{
+    padding-bottom: 10px;
+}
+.aboutBut{
+    padding-top: 30px;
+}
+.aboutBut button{
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+/* Service Part */
+.service{
+    background-color: var(--dark_green);
+    color: white;
+    width: 100%;
+    height: 250px;
+}
+.ser_card{
+    text-align: center;
+}
+.ser_card i{
+    color: var(--light_yellow);
+    font-size: 100px;
+}
+/* Chef Part*/
+.chef{
+    background-color: var(--light_green);
+}
+.cheftext_upper{
+    text-align: center;
+}
+.cheftext_upper h1{
+    font-family: 'Madimi One',sans-serif;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.cheftext_upper h3{
+    padding-bottom: 15px;
+}
+.cheftext_lower{
+    text-align: center;
+}
+.chef_card{
+    width: px;
+    border: 2px solid var(--light_green);
+    border-radius:px;
+    padding: 15px;
+}
+.chef_text{
+    text-align: center;
+    background-color: var(--dark_green);
+    color: white;
+}
+/* Since */
+.since{
+    width: 100%;
+    background-color: var(--orange);
+}
+.sinceImg{
+    width: 50%;
+    height: 50%;
+}
+.sinceText{
+    width: 50%;
+    margin-left: 100px;
+}
+.sinceText h1{
+    padding-bottom: 10px;
+}
+.sinceText p{
+    padding-bottom: 50px;
+}
+.sinceBut button{
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    font-weight: bold
+}
+/* Testimonial Part */
+.testi{
+    background-color: var(--dark_green);
+    color: white;
+    text-align: center;
+}
+.testiText h1{
+    font-family: 'Madimi One',sans-serif;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.testiText p{
+    padding-bottom: 15px;
+}
+.testiText h3{
+    padding-bottom: 15px;
+}
+/* Menu part */
+.menu{
+    background-color: var(--light_yellow);
+    color: var(--dark_green);
+}
+.menuText{
+    text-align: center;
+}
+.menuText h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.menuText h3{
+    padding-bottom: 15px;
+}
+/* Food Part */
+.foods{
+    background-color: var(--light_green);
+    color: white;
+}
+.food_img{
+    width: 30%;
+    height: 30%;
+    border-radius: 50px;
+}
+
+/* Footer Part */
+.footer_upper{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 350px;
+    padding: 30px 0px;
+    text-align: center;
+    color: var(--light_green);
+}
+.fu_part1 h1{
+    font-family: 'madimi one',sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.fu_part1{
+    padding: 20px 0px;
+}
+.fu_part2{
+    flex-direction: column;
+    gap: 15px;
+}
+.fu_part2 input{
+    border-radius: 15px;
+    width: 30%;
+    height: 30px;
+    font-weight: bold;
+    padding: 3px;
+    border: 2px solid var(--light_green);
+}
+.fu_part2 button{
+    border: 2px solid var(--light_green);
+    border-radius: 15px;
+    width: 30%;
+    height: 30px;
+    color: green;
+    font-weight: bold;
+}
+
+.footer_lower{
+    width: 100%;
+    height: 150px;
+    background-color: var(--dark_green);
+    padding: 0px 100px 0px 50px;
+    color: white;
+    align-items: center;
+}
+.footer_lower_parts1 h2{
+    font-family: 'madimi one',sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.footer_lower_parts2 h2{
+    font-family: 'madimi one',sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.footer_lower_parts3 h2{
+    font-family: 'madimi one',sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+.footer_lower_parts4 h2{
+    font-family: 'madimi one',sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
